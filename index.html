@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/bitcoin.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>The Computer Store</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <h1>The Computer Store</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span
+                    class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" id="homeLnk">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link" id="productsLnk">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutUs" class="nav-link" id='aboutLnk'>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactUs" class="nav-link" id="contactLnk">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-1 bg-primary" id="side">
+            </div>
+        
+            <div class="col-11" id="content">
+                <section id="home" class="container-fluid p-0">
+                    <h1 hidden>empty</h1>
+                    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+                        <div class="container">
+                            <div class="d-sm-flex align-items-center justify-content-between">
+                                <div>
+                                    <h2 class="h1 pt-5">Welcome to <span class="text-warning">My Webpage</span></h2>
+                                    <p class="lead m-4" id="showcaseText">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Sapiente, ut sint obcaecati hic incidunt ad eligendi reiciendis quia quis facere
+                                        nostrum doloremque ex deleniti corporis magnam quae libero autem sit. Lorem
+                                        ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis corrupti
+                                        aliquam </p>
+                                    <button class="btn btn-primary btn-lg mb-5" data-bs-toggle="modal"
+                                        data-bs-target="#form">Enter your computer requirements</button>
+                                </div>
+                                <img class="img-fluid w-50 d-none d-sm-block px-5" src="img/road.svg" alt="walking the road">
+                            </div>
+                        </div>
+                    </section>
+                
+            
+                    <section class="bg-primary text-light p-5">
+                        <div class="container">
+                            <div class="d-md-flex justify-content-between align-items-center">
+                                <h3 class="mb-3 mb-md-0">Sign Up for Newsletter</h3>
+                                <div class="input-group" id="news">
+                                    <input type="text" class="form-control" placeholder="Enter email">
+                                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Sign
+                                        Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="p-5">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-md">
+                                    <img src="img/select.svg" class="img-fluid" alt="man reading posters">
+                                </div>
+                                <div class="col-md p-5">
+                                    <h2>Learn about new devices</h2>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                                        dignissimos ex quos facilis, at corrupti.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minima consectetur
+                                        soluta laudantium adipisci sed labore iusto qui dolor deleniti.</p>
+                                    <a href="#" class="btn btn-light mt-3" data-bs-toggle="modal"
+                                        data-bs-target="#form">
+                                        <i class="bi bi-chevron-right"></i>Get new info
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <svg height="10" width="100%" class="p-0 m-0">
+                        <line x1="0" x2="2200" style="stroke:blue;stroke-width:10" />
+                      </svg>  
+                    <section class="p-5 bg-dark text-light">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-md p-5">
+                                    <h2>Gaming</h2>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                                        dignissimos ex quos facilis, at corrupti.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minima consectetur
+                                        soluta laudantium adipisci sed labore iusto qui dolor deleniti.</p>
+                                    <a href="#" class="btn btn-light mt-3" data-bs-toggle="modal"
+                                        data-bs-target="#form">
+                                        <i class="bi bi-chevron-right"></i>Get new product notifications
+                                    </a>
+                                </div>
+                                <div class="col-md">
+                                    <img src="img/main.svg" class="img-fluid" alt="man using laptop on photocopier">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                                
+                <section class="container-fluid page p-0" id="products">
+                    <h1 hidden>empty</h1>
+                    <section class="p-5">
+                        <div class="container col-md">
+                            <h2 class="text-center p-5">Computer Requirement Results</h2>
+                            <h3 class="text-center p-3">You selected</h3>
+                            <div class="d-sm-flex justify-content-evenly text-primary p-3">
+                                <a href="#" class="nav-link">Laptop</a>
+                                <a href="#" class="nav-link">Windows</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="p-5">
+                        <div class="container">
+                            <div class="row text-center g-4">
+                                <div class="col-md">
+                                    <div class="card bg-dark text-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1">
+                                                <svg width="80" height="55">
+                                                    <rect x="10" y="5" rx="10" ry="10" width="60" height="35"
+                                                        style="fill:white;stroke:black;stroke-width:2" />
+                                                    <rect x="15" y="10" rx="10" ry="10" width="50" height="25"
+                                                        style="fill:grey;stroke:black;stroke-width:2" />
+                                                    <rect x="5" y="40" rx="10" ry="10" width="70" height="7"
+                                                        style="fill:white;stroke:black;stroke-width:2" />
+                                                </svg>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Laptops
+                                            </h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                                nisi rem tempore impedit minima similique aut tenetur? Odit libero,
+                                                aspernatur et numquam magni ratione debitis corrupti minima, placeat
+                                                commodi ad.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">See all laptops</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card bg-secondary text-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-windows"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Windows
+                                            </h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                                nisi rem tempore impedit minima similique aut tenetur? Odit libero,
+                                                aspernatur et numquam magni ratione debitis corrupti minima, placeat
+                                                commodi ad.
+                                            </p>
+                                            <a href="#" class="btn btn-dark">See all Windows Range</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card bg-dark text-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-apple"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Apple
+                                            </h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                                nisi rem tempore impedit minima similique aut tenetur? Odit libero,
+                                                aspernatur et numquam magni ratione debitis corrupti minima, placeat
+                                                commodi ad.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">See all Apple Range</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="p-5 bg-primary">
+                        <div class="container">
+                            <div class="row text-center g-4">
+                                <div class="col-md">
+                                    <div class="card bg-dark text-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-camera-fill"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Cameras
+                                            </h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                                nisi rem tempore impedit minima similique aut tenetur? Odit libero,
+                                                aspernatur et numquam magni ratione debitis corrupti minima, placeat
+                                                commodi ad.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card bg-secondary text-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-camera-video"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Video Cameras
+                                            </h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                                nisi rem tempore impedit minima similique aut tenetur? Odit libero,
+                                                aspernatur et numquam magni ratione debitis corrupti minima, placeat
+                                                commodi ad.
+                                            </p>
+                                            <a href="#" class="btn btn-dark">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="card bg-dark text-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-controller"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Controllers
+                                            </h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                                nisi rem tempore impedit minima similique aut tenetur? Odit libero,
+                                                aspernatur et numquam magni ratione debitis corrupti minima, placeat
+                                                commodi ad.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="container-fluid page p-0" id="aboutUs">
+                    <div>
+                        <card-body class="text-center">
+                            <h1 class="py-5">About Us</h1>
+                        </card-body>
+                        <p class="card-text p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis vitae
+                            voluptatum iure, distinctio, sit quia rerum molestiae eum consequatur dolorem expedita
+                            possimus eius facilis fugiat magnam. Consequatur maiores, excepturi fugiat tempore possimus
+                            provident eius corrupti laudantium rem ratione consequuntur esse, est aperiam. Dolor,
+                            officia qui? Labore voluptatibus ab dolorem praesentium. Soluta vitae earum rem quisquam
+                            quasi ducimus necessitatibus dolorum animi corrupti laudantium non quae, consequatur tempora
+                            perspiciatis recusandae qui dolores a. Amet expedita deleniti aliquid voluptate maiores
+                            temporibus in beatae obcaecati, quos, culpa error iusto accusamus rerum recusandae ducimus.
+                            Cumque, dolor voluptatibus libero, sed sapiente necessitatibus nobis inventore, iure
+                            corrupti illo optio incidunt magnam. Molestiae at similique placeat possimus, rerum,
+                            expedita modi pariatur vero illum sapiente doloremque sint ipsam tempore, in facere ducimus
+                            odit. Possimus libero saepe nisi inventore amet similique quam facilis ea tempora cum
+                            laudantium esse voluptas accusamus ipsam, omnis harum natus blanditiis, repudiandae ullam
+                            tempore, incidunt delectus laboriosam eius. Ipsam debitis soluta quidem consequatur tenetur
+                            fugiat cupiditate ducimus eos ipsa? Alias, nihil sapiente rem quo animi veritatis magni.
+                            Dolorem assumenda aspernatur molestias est et autem modi libero sint perspiciatis beatae
+                            ipsam quibusdam error voluptates molestiae architecto tempore impedit, in, corporis, vero
+                            fugiat voluptatibus nihil quidem maxime! Perspiciatis nisi et omnis alias sint ex, dicta
+                            veritatis, optio dolore maiores qui porro incidunt saepe odit repellat doloribus sit eius
+                            ratione nemo. Placeat, deleniti aperiam voluptatum reiciendis nihil vel autem qui eum omnis
+                            alias magni officia tempore minima consectetur veniam. Vero similique laudantium, quas
+                            obcaecati fugit at reprehenderit. Exercitationem magni officiis recusandae eum modi sunt
+                            voluptates eligendi reprehenderit commodi nostrum officia totam nam mollitia ipsum magnam
+                            praesentium corporis quasi libero, repellat incidunt, ratione, facilis aliquam voluptatem
+                            similique. Sint mollitia porro, id repellendus provident fugit impedit ratione nesciunt
+                            suscipit culpa doloribus qui tempore, quia ad aut similique hic dolorum deleniti! Porro
+                            cupiditate laboriosam reiciendis sed adipisci fuga velit, unde incidunt quidem iste rerum
+                            quaerat dolore perspiciatis aperiam ratione corrupti aliquam voluptate quos eveniet
+                            reprehenderit voluptatum. Impedit dignissimos nulla dolore cum assumenda rerum dolorum
+                            repellendus amet, harum quo excepturi ipsam quas dolorem neque. Corrupti, eligendi nesciunt
+                            natus dolore illo, adipisci dolorem veritatis incidunt optio ut repellat quo vero.
+                            Cupiditate iste non voluptas illum tempora quidem dignissimos numquam nam vero repellat,
+                            minus aut quia debitis nesciunt ullam commodi repudiandae, perferendis deleniti explicabo
+                            consectetur fugiat ipsam aliquid? Quibusdam quis deleniti libero praesentium repudiandae,
+                            consectetur exercitationem explicabo culpa deserunt molestiae ducimus est molestias repellat
+                            temporibus quasi, amet neque excepturi ex sunt aspernatur nam dignissimos ab facere. Fugiat
+                            nesciunt, dolorum consectetur sapiente asperiores a ipsa hic, sunt voluptas voluptatibus
+                            commodi in ex ea adipisci ratione, explicabo maiores iusto quia rerum. Deleniti perspiciatis
+                            nam fugiat cupiditate beatae odit voluptates rerum quaerat similique. Fugit distinctio alias
+                            praesentium neque ratione hic id incidunt tenetur facilis repudiandae eveniet aut, error
+                            repellat deleniti voluptatem officiis nostrum atque ea quisquam quasi blanditiis reiciendis!
+                            Ipsa iste obcaecati expedita vero nulla autem, deserunt similique, debitis fuga excepturi
+                            veniam nobis. Quae corporis voluptates excepturi maxime, blanditiis a ipsam reiciendis
+                            dignissimos voluptatum eaque doloribus modi recusandae.</p>
+                    </div>
+                    <section class="p-5 m-5 bg-primary">
+                        <div class="container">
+                            <h2 class="text-center text-white">Sales Team</h2>
+                            <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nulla fuga suscipit quam similique deleniti eos tenetur vero maiores
+                                mollitia sequi?</p>
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/men/11.jpg"
+                                                class="rounded-circle mb-3" alt="Profile picture of John Doe">
+                                            <h3 class="card-title mb-3">John Doe</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/men/12.jpg"
+                                                class="rounded-circle mb-3" alt="Profile picture of Steve Smith">
+                                            <h3 class="card-title mb-3">Steve Smith</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/women/11.jpg"
+                                                class="rounded-circle mb-3" alt="Profile picture of Jane Doe">
+                                            <h3 class="card-title mb-3">Jane Doe</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/women/12.jpg"
+                                                class="rounded-circle mb-3" alt="Profile picture of Sarah Smith">
+                                            <h3 class="card-title mb-3">Sarah Smith</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="container-fluid page p-0" id="contactUs">
+                    <div class="container p-5">
+                        <h2 class="text-center">Contact Us</h2>
+                        <form>
+                            <div class="mb-3">
+                                <label for="firstName" class="col-form-label">First Name:</label>
+                                <input type="text" class="form-control" id="firstName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="col-form-label">Last Name:</label>
+                                <input type="text" class="form-control" id="lastName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mobile" class="col-form-label">Phone:</label>
+                                <input type="text" class="form-control" id="mobile">
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailAdd" class="col-form-label">Email:</label>
+                                <input type="email" class="form-control" id="emailAdd">
+                            </div>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <section class="p-5 bg-primary">
+                        <div class="container-fluid p-0 m-0">
+                            <h2 class="text-center text-white pb-5">Testimonial</h2>
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/men/13.jpg"
+                                                class="rounded mb-3" alt="Profile picture of John Doe">
+                                            <h3 class="card-title mb-3">John Doe</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/men/14.jpg"
+                                                class="rounded mb-3" alt="Profile picture of Steve Smith">
+                                            <h3 class="card-title mb-3">Steve Smith</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/women/14.jpg"
+                                                class="rounded mb-3" alt="Profile picture of Jane Doe">
+                                            <h3 class="card-title mb-3">Jane Doe</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <img src="https://randomuser.me/api/portraits/women/15.jpg"
+                                                class="rounded mb-3" alt="Profile picture of Sarah Smith">
+                                            <h3 class="card-title mb-3">Sarah Smith</h3>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum eveniet ex corporis ipsum voluptatibus expedita?</p>
+                                            <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    
+                <footer class="p-5 bg-dark text-white text-center position-relative" id="footer">
+                    <div class="container">
+                        <p class="lead">Copyright &copy; 2021 Dallas Little</p>
+                        <a href="#home" class="position-absolute bottom-0 end-0 p-5">
+                            <i class="bi bi-arrow-up-circle h1"></i>
+                        </a>
+                    </div>
+                </footer>
+                <div class="modal fade" id="form" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">New Computer Details</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="lead">Enter you Computer Requirements</p>
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="first-name" class="col-form-label">First Name:</label>
+                                        <input type="text" class="form-control" id="first-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="last-name" class="col-form-label">Last Name:</label>
+                                        <input type="text" class="form-control" id="last-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="col-form-label">Phone:</label>
+                                        <input type="text" class="form-control" id="phone">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="col-form-label">Email:</label>
+                                        <input type="email" class="form-control" id="email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="os" class="col-form-label">Operating System</label>
+                                        <input type="text" class="form-control" id="os">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="type" class="col-form-label">Computer Type?</label>
+                                        <select name="type" id="type">
+                                            <option value="pc">PC</option>
+                                            <option value="lap">Laptop</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+            
+</body>
+
+</html>

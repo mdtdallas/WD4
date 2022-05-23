@@ -1,0 +1,68 @@
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+.page {
+    display: none;
+    margin-top: 100px;
+}
+#products::before, #aboutUs::before {
+    display: block;
+    content: '';
+    height: 40px;
+}
+
+.nav-item {
+    color: grey;
+}
+
+#news {
+    width: 60%;
+}
+
+.navbar-collapse {
+    flex-grow: 5;
+}
+
+.collapsing {
+    transition: height 1.4s ease;
+}
+
+.lead {
+    font-weight: 500;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 90%;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#showcaseText {
+    max-width: 80%;
+}
+
+@media(max-width: 760px) {
+        #news {
+            width: 100%;
+        }
+        #side {
+            display: none;
+        }
+        #content {
+            width: 100%;
+        }
+        a {
+            text-align: center;
+        }
+}
+
